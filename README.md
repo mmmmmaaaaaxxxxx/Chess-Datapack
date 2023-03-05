@@ -1,2 +1,2 @@
 # Chess-Datapack
-Its chess, what can I say?
+I added chess in minecraft, what more is there to say?
