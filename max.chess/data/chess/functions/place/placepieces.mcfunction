@@ -1,0 +1,23 @@
+
+execute as @e[tag=2,tag=new] at @s run function chess:place/pieces/whitepawn
+execute as @e[tag=7,tag=new] at @s run function chess:place/pieces/blackpawn
+execute as @e[tag=1,tag=h,tag=new] at @s run function chess:place/pieces/whiterook
+execute as @e[tag=1,tag=a,tag=new] at @s run function chess:place/pieces/whiterook
+execute as @e[tag=8,tag=h,tag=new] at @s run function chess:place/pieces/blackrook
+execute as @e[tag=8,tag=a,tag=new] at @s run function chess:place/pieces/blackrook
+execute as @e[tag=1,tag=g,tag=new] at @s run function chess:place/pieces/whiteknight
+execute as @e[tag=1,tag=b,tag=new] at @s run function chess:place/pieces/whiteknight
+execute as @e[tag=8,tag=g,tag=new] at @s run function chess:place/pieces/blackknight
+execute as @e[tag=8,tag=b,tag=new] at @s run function chess:place/pieces/blackknight
+execute as @e[tag=1,tag=f,tag=new] at @s run function chess:place/pieces/whitebishop
+execute as @e[tag=1,tag=c,tag=new] at @s run function chess:place/pieces/whitebishop
+execute as @e[tag=8,tag=f,tag=new] at @s run function chess:place/pieces/blackbishop
+execute as @e[tag=8,tag=c,tag=new] at @s run function chess:place/pieces/blackbishop
+execute as @e[tag=1,tag=d,tag=new] at @s run function chess:place/pieces/whitequeen
+execute as @e[tag=8,tag=d,tag=new] at @s run function chess:place/pieces/blackqueen
+execute as @e[tag=1,tag=e,tag=new] at @s run function chess:place/pieces/whiteking
+execute as @e[tag=8,tag=e,tag=new] at @s run function chess:place/pieces/blackking
+execute as @e[tag=3,tag=new] run tag @s add empty
+execute as @e[tag=4,tag=new] run tag @s add empty
+execute as @e[tag=5,tag=new] run tag @s add empty
+execute as @e[tag=6,tag=new] run tag @s add empty
